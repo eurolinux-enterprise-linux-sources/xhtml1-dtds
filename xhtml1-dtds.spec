@@ -2,7 +2,7 @@
 
 Name:           xhtml1-dtds
 Version:        1.0
-Release:        %{date}.10
+Release:        %{date}.9
 Summary:        XHTML 1.0 document type definitions
 
 Group:          Applications/Text
@@ -118,9 +118,6 @@ cd - >/dev/null
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-20020801.10
-- Mass rebuild 2013-12-27
-
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-20020801.9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
