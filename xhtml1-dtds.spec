@@ -2,7 +2,7 @@
 
 Name:           xhtml1-dtds
 Version:        1.0
-Release:        %{date}.11%{?dist}%{?extra_release}
+Release:        %{date}.10
 Summary:        XHTML 1.0 document type definitions
 
 Group:          Applications/Text
@@ -118,9 +118,6 @@ cd - >/dev/null
 
 
 %changelog
-* Tue Jul 15 2014 Daniel Veillard <veillard@redhat.com> - 1.0-20020801.11
-- adding %{dist} to Release to avoid dist tag conflicts (rhbz#1028577)
-
 * Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-20020801.10
 - Mass rebuild 2013-12-27
 
